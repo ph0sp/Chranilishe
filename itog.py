@@ -47,7 +47,7 @@ questions = [
 ]
 
 # Замените на ваш реальный chat_id
-YOUR_CHAT_ID = "6485604731"
+YOUR_CHAT_ID = "YOUR_CHAT_ID"
 
 def start(update: Update, context: CallbackContext) -> int:
     # Создаем клавиатуру для выбора пола ассистента
@@ -133,7 +133,7 @@ def cancel(update: Update, context: CallbackContext) -> int:
 
 def main() -> None:
     # Замените "YOUR_BOT_TOKEN" на токен вашего бота
-    updater = Updater("8412531853:AAE_Vw9_goqGp9mQ1_SxaTSt90HAOctSRko")
+    updater = Updater("BOT_TOKEN")
     dispatcher = updater.dispatcher
 
     # Настройка обработчика диалога
