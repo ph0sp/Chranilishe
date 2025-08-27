@@ -1,1 +1,1 @@
-worker: python itog.py
+web: python itog.py
